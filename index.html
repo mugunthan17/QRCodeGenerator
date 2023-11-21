@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>QR CODE GENERATOR</h1>
+
+    <div class="box">
+        <label for="text" class="text">Enter Your Text</label>
+        <br>
+        <input type="text" id="txt">
+        <br>
+        <button id="genBTN">GENERATE QR</button>
+    </div>
+
+    <div class="box">
+        <label for="qrcode-box">QR CODE</label>
+        <div id="qrcodediv"></div>
+        <button id="downloadBtn" style="display:none;">DOWNLOAD</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="index.js"></script>
+
+    
+</body>
+
+</html>

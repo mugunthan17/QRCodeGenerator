@@ -1,0 +1,49 @@
+body {
+    margin: 3%;
+    padding: 0;
+    background: rgb(22, 218, 209);
+    background: linear-gradient(90deg, rgba(22, 218, 209, 1) 0%, rgba(9, 9, 121, 1) 69%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#txt {
+    width: 50%;
+    height: 7%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1%;
+}
+
+#genBTN,#downloadBtn {
+    background-color: white;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 1%;
+    padding: 1%;
+}
+
+#genBTN:hover,#downloadBtn:hover {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#qrcodediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
